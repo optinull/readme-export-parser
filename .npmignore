@@ -1,1 +1,9 @@
 docs/
+test/
+coverage/
+.nyc_output/
+tags
+yarn.lock
+package-lock.json
+.jsdoc.json
+.eslintrc.json
