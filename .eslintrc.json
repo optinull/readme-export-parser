@@ -1,0 +1,40 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "es2020": true
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+
+  "plugins": [
+    "jsdoc",
+    "mocha"
+  ],
+
+  "extends": [
+    "standard",
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:lodash/recommended",
+    "plugin:mocha/recommended",
+    "plugin:jsdoc/recommended"
+  ],
+
+  "rules": {
+    "jsdoc/check-tag-names": 0,
+    "jsdoc/no-undefined-types": 0,
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+    "lodash/prefer-lodash-method": 0,
+    "lodash/prefer-noop": 0,
+    "lodash/prefer-constant": 0,
+    "node/no-unpublished-require": 0,
+    "mocha/no-mocha-arrows": 0,
+    "mocha/no-setup-in-describe": 0,
+    "mocha/no-skipped-tests": 0
+  }
+}
