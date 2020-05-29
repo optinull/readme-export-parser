@@ -2,6 +2,7 @@ docs/
 test/
 coverage/
 .nyc_output/
+lib/types/
 tags
 yarn.lock
 package-lock.json

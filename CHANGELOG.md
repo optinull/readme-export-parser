@@ -1,3 +1,6 @@
+# 1.0.3
+- fix: exclude lib/types from npm build
+
 # 1.0.2
 - fix: exclude remaining extraneous files from npm build
 
